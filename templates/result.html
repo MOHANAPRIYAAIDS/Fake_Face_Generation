@@ -1,0 +1,27 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Image</title>
+</head>
+<body>
+    <h1>Generated Image</h1>
+    <img src="C:\Users\Mohanapriya\Downloads\Winter-intern-project\templates\generated_image1.png" alt="Generated Image"style="width: 700px; height: 500px;">
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Image</title>
+</head>
+<body>
+    <h1>Generated Image</h1>
+    <img src="{{ url_for('send_image', filename=image_filename) }}" alt="Generated Image" style="width: 700px; height: 500px;">
+</body>
+</html>
+
+
+
