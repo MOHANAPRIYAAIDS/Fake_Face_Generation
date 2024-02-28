@@ -1,6 +1,3 @@
-Sure, here's how you could structure your README file:
-
-```
 # Fake Face Generation using GAN
 
 This project focuses on generating fake faces using Generative Adversarial Networks (GANs) trained on the CelebA dataset from Kaggle.
@@ -23,6 +20,11 @@ You can install the dependencies using pip:
 
 pip install tensorflow numpy matplotlib
 
+## Preprocessing Images
+To preprocess images using OpenCV,
+
+Resize Images: Resize the images to a smaller resolution.
+Normalize Pixel Values: Convert pixel values to floats and normalize them to the range [0, 1]
 
 If your environment is not optimal for training the GAN, you can preprocess the images to the desired dimensions. 
 
@@ -48,6 +50,6 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
+
 
 Feel free to customize and expand upon this template to better suit your project's specific needs and details.
