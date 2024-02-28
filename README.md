@@ -3,7 +3,6 @@
 # Welcome to Fake Face Generation Project
 
 Welcome to the Fake Face Generation project repository! This project focuses on generating fake faces using Generative Adversarial Networks (GANs) trained on the CelebA dataset from Kaggle.
-![How to Tell if a Photo is an AI-Generated Fake](https://www.scientificamerican.com/sciam/cache/file/6A7A9F32-2804-4F3F-94EE53A2D20F7686_source.jpg)
 
 
 ## About This Project
@@ -26,4 +25,6 @@ ssh username@yourserver.com
 ```
 
 Replace `username` with your username and `yourserver.com` with your server address.
+
+# Alternatively, you can directly access the master branch or tags from the repository's GitHub page.
 
